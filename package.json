@@ -1,0 +1,41 @@
+{
+  "name": "standardizer",
+  "description": "standardizing standards - the standardizer!",
+  "version": "0.0.1",
+
+  "maintainers": [
+    {
+      "name": "Jeffrey Mealo",
+      "email": "jeffreymealo@gmail.com",
+      "web": "http://www.jeffreymealo.com/"
+    }
+  ],
+
+  "bugs": {
+    "web": "https://github.com/JarvusInnovations/standardizer/issues"
+  },
+
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://raw.githubusercontent.com/JarvusInnovations/standardizer/master/LICENSE"
+    }
+  ],
+
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "https://raw.githubusercontent.com/JarvusInnovations/standardizer/master/LICENSE"
+    }
+  ],
+
+  "homepage": "http://standardizer.org",
+
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  }
+}
