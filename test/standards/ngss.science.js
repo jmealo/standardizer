@@ -6,4 +6,10 @@ describe('Jeffrey', function() {
             assert.notEqual(null, false);
         });
     });
+
+    describe('When coding', function() {
+        it('should not write tests', function() {
+            assert.notEqual(false, true);
+        });
+    });
 });
