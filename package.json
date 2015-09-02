@@ -2,7 +2,6 @@
   "name": "standardizer",
   "description": "standardizing standards - the standardizer!",
   "version": "0.0.1",
-
   "maintainers": [
     {
       "name": "Jeffrey Mealo",
@@ -10,32 +9,28 @@
       "web": "http://www.jeffreymealo.com/"
     }
   ],
-
   "bugs": {
-    "web": "https://github.com/JarvusInnovations/standardizer/issues"
+    "url": "https://github.com/JarvusInnovations/standardizer/issues"
   },
-
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://raw.githubusercontent.com/JarvusInnovations/standardizer/master/LICENSE"
-    }
-  ],
-
-  "licenses": [
-    {
-      "name": "MIT",
-      "url": "https://raw.githubusercontent.com/JarvusInnovations/standardizer/master/LICENSE"
-    }
-  ],
-
+  "repository": {
+    "type": "git",
+    "url": "https://raw.githubusercontent.com/JarvusInnovations/standardizer/master/LICENSE"
+  },
+  "license": "MIT",
   "homepage": "http://standardizer.org",
-
   "devDependencies": {
     "mocha": "^2.2.5"
   },
-
   "scripts": {
     "test": "node_modules/.bin/mocha --recursive"
+  },
+  "dependencies": {
+    "es6-shim": "^0.31.2",
+    "jsdom": "^3.1.2",
+    "level": "^1.0.0",
+    "levelgraph": "^0.10.5",
+    "levelgraph-n3": "jmealo/levelgraph-n3#fix-n3-import",
+    "node-extjs": "^1.0.1",
+    "reqwest": "^2.0.2"
   }
 }
